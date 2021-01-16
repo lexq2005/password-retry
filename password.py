@@ -7,4 +7,6 @@ while i > 0:
 		print('password is correct')
 		break #Exit
 	else:
-		print('Password Error, you have ', i, 'time(s) to try.')
+		print('Password Error')
+		if i > 0:
+			print('you have ', i, 'time(s) to try.')
